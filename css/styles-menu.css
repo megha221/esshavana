@@ -1,0 +1,54 @@
+.mobile-menu {
+    background-color: #796351;
+    color: white;
+    padding: 1px 10px 80px;
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 80px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    /* Initially hidden */
+    background-color: #827367;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    font-size: .85rem;
+}
+
+.menu-list li {
+    border-bottom: 1px solid #555;
+}
+
+.menu-list li a {
+    display: block;
+    padding: 5px 10px 5px 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-list li a:hover {
+    background-color: #555;
+}

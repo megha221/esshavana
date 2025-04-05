@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Playfair+Display|Poppins:300,400,600,800&amp;display=swap&amp;subset=latin-ext";
+* {
+    outline: none !important
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    color: #26282b;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale
+}
+
+img {
+    max-width: 100%
+}
+
+.overflow {
+    overflow: hidden
+}
+
+a {
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -ms-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    color: #26282b;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+@media only screen and (max-width:767px),
+only screen and (max-device-width:767px) {
+    footer {
+        padding: 30px 0 70px
+    }
+    .whatsapp_float {
+        bottom: 0;
+        width: 45px;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+    .chat {
+        display: none
+    }
+    .side-navigation {
+        width: 80vw
+    }
+    .call-to-action1 {
+        display: block !important
+    }
+}
+
+@media only screen and (max-width:575px),
+only screen and (max-device-width:575px) {
+    .slider .slider-container .swiper-slide .container h1 {
+        font-size: 30px
+    }
+    .call-to-action1 {
+        position: fixed;
+        width: 100%;
+        padding: 0 !important;
+        margin: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 9;
+        text-align: center;
+        display: none;
+        background: #cdaf87
+    }
+    .call-to-action1 p {
+        font-size: 17px;
+        margin-bottom: 0;
+        padding: 10px;
+        background: #cdaf87;
+        color: #fff
+    }
+    .call-to-action1 p:hover {
+        background: #cdaf87
+    }
+    .call-to-action1 .col-6 {
+        float: right
+    }
+    label.error {
+        color: red;
+        margin-top: 5px
+    }
+    .call-to-action1,
+    .call-to-action1 p,
+    .call-to-action1 .col-6 {
+        z-index: 1001;
+        background-color: #96764b !important
+    }
+    #docs {
+        left: 20px;
+        background-color: #96764b !important
+    }
+}
