@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Custom Racetrack Icon -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.4666mm" height="8.4666mm" version="1.1"
+     style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+     viewBox="0 0 846.66 846.66"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        .fil0 {fill:#FEFEFE}
+        .fil1 {fill:#86776F}
+      ]]>
+    </style>
+  </defs>
+  <g id="Layer_x0020_1">
+    <metadata id="CorelCorpID_0Corel-Layer"/>
+    <circle class="fil0" cx="423.33" cy="423.33" r="423.33"/>
+    <g id="Racetrack">
+      <path class="fil1" d="M250 250c-30 30-50 100-50 170s20 140 50 170c40 40 100 50 170 50s130-10 170-50 50-100 50-170-10-130-50-170-100-50-170-50-130 10-170 50zm80 173h40v-40h-40v40zm0 80h40v-40h-40v40zm80-80h40v-40h-40v40zm0 80h40v-40h-40v40zm80-80h40v-40h-40v40zm0 80h40v-40h-40v40z"/>
+    </g>
+  </g>
+</svg>
