@@ -73,13 +73,13 @@ only screen and (max-device-width:575px) {
         z-index: 9;
         text-align: center;
         display: none;
-        background: #cdaf87
+        background: #003F46
     }
     .call-to-action1 p {
         font-size: 17px;
         margin-bottom: 0;
         padding: 10px;
-        background: #cdaf87;
+        /* background: #cdaf87; */
         color: #fff
     }
     .call-to-action1 p:hover {
@@ -96,7 +96,7 @@ only screen and (max-device-width:575px) {
     .call-to-action1 p,
     .call-to-action1 .col-6 {
         z-index: 1001;
-        background-color: #96764b !important
+        /* background-color: #96764b !important */
     }
     #docs {
         left: 20px;

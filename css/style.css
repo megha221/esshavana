@@ -1722,7 +1722,7 @@ footer {
 }
 
 footer.footer-light {
-    background: #decebf
+    background: #f8fefe	
 }
 
 footer.footer-light a {
@@ -3369,7 +3369,7 @@ input[type=button].btn-main {
     padding: 8px 12px;
     font-size: 14px;
     border: none;
-    background: #8e6f56;
+    background: #003F46;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px
@@ -14345,15 +14345,15 @@ img {
 }
 
 .bg-cream {
-    background: #f8f2e5
+    background: #f8fefe	
 }
 
 .bg-cream-dark {
-    background: #f0e6cd
+    background: #f8fefe
 }
 
 .bg-cream-dark-01 {
-    background: #e2d3be
+    background: #f8fefe	
 }
 
 .page-padding {
