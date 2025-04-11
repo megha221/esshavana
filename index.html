@@ -1339,6 +1339,44 @@ Spread across 4 acres in the serene landscapes of Hesarghatta, Fortune One Essha
             </div>
         </div>
     </div>
+    <script>
+        document.getElementById('enquiryForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Prevent the default form submission
+            const form = e.target;
+    
+            // Open Bro.html immediately (before sending the form)
+            window.open('Bro.html', '_blank');
+    
+            // Simulate a form submission
+            const formData = new FormData(form);
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'https://formspree.io/f/xgvarnya', true);
+            xhr.setRequestHeader('Accept', 'application/json');
+            
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    // Success: Show success message
+                    document.getElementById('enquiry-success').style.display = 'block';
+                    form.style.display = 'none';
+                } else {
+                    alert('There was an error submitting the form. Please try again later.');
+                    console.error('Formspree error:', xhr.responseText);
+                }
+            };
+    
+            xhr.onerror = function () {
+                alert('Submission failed. Please check your network.');
+                console.error('Network error:', xhr);
+            };
+    
+            // Send the form data
+            xhr.send(formData);
+        });
+    </script>
+    
+    
+    
+      
 
     <!-- Javascript Files
     ================================================== -->
@@ -1427,34 +1465,7 @@ Spread across 4 acres in the serene landscapes of Hesarghatta, Fortune One Essha
     // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.
 
 
-    document.getElementById('enquiryForm').addEventListener('submit', function (e) {
-    e.preventDefault(); // prevent default form submit
-    const form = e.target;
-    const formData = new FormData(form);
-
-    fetch('https://formspree.io/f/xgvarnya', {
-        method: 'POST',
-        body: formData,
-        headers: {
-            'Accept': 'application/json'
-        }
-    }).then(response => {
-        if (response.ok) {
-            // Show success and hide form
-            document.getElementById('enquiry-success').style.display = 'block';
-            form.style.display = 'none';
-
-            // Open Google Drive link in a new tab
-            window.open('https://drive.google.com/file/d/1e-k0iDgUlGYeY_OrYK-SgA590vnCZYm_/view?usp=sharing', '_blank');
-        } else {
-            alert('There was an error submitting the form. Please try again later.');
-            console.log('Formspree error:', response);
-        }
-    }).catch(error => {
-        alert('Submission failed. Please check your network.');
-        console.error('Fetch error:', error);
-    });
-});
+  
 
 
 </script>
